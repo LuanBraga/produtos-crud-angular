@@ -1,8 +1,11 @@
 <mat-toolbar class="footer">
     <span>
-        <i class="material-icons yellow v-middle">
+        <i class="material-icons v-middle" appYellow>
             emoji_objects
         </i>
          Desenvolvido por <strong>Luan Braga</strong>
     </span>
+    <ul>
+        <li *myFor="let n in [1, 2, 3]"></li>
+    </ul>
 </mat-toolbar>
